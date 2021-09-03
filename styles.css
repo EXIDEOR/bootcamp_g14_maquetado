@@ -3,15 +3,16 @@
 
 
 h1 {
-    color: red;
+    color: rgb(210, 190, 243);
 }
 
 h2 {
-    color: green;
+    color: rgb(252, 178, 144);
 }
 
 p {
-    font-size: 35%;
+    font-size: 95%;
+    color: honeydew;
 }
 
 body{
