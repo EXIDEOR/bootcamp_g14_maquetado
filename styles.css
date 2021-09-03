@@ -1,0 +1,35 @@
+/*este es el coso de los comentarios*/
+
+
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    font-size: 35%;
+}
+
+body{
+    background-color: grey;
+}
+
+#parrafo1 {
+    color: honeydew;
+}
+
+#parrafo2 {
+    color: khaki;
+}
+
+.caja {
+    border: 1px solid lightgray;
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+}
