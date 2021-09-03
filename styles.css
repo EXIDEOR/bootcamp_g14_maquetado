@@ -3,11 +3,11 @@
 
 
 h1 {
-    color: rgb(210, 190, 243);
+    color: rgb(13, 158, 158);
 }
 
 h2 {
-    color: rgb(252, 178, 144);
+    color: rgb(211, 253, 21);
 }
 
 p {
@@ -16,7 +16,7 @@ p {
 }
 
 body{
-    background-color: grey;
+    background-color: rgb(8, 8, 12);
 }
 
 #parrafo1 {
@@ -24,13 +24,19 @@ body{
 }
 
 #parrafo2 {
-    color: khaki;
+    color: rgb(211, 253, 21);
 }
 
 .caja {
-    border: 1px solid lightgray;
-    height: 50px;
-    width: 200px;
-    margin: 20px;
-    padding: 20px;
+    border: 1px solid rgb(13, 158, 158);
+    height: 5px;
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.caja#caja2 {
+    border: 1px solid rgb(255, 94, 1);
+    height: 70px;
+    width: 350px;
 }
