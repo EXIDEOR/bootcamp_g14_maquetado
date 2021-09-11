@@ -1,0 +1,77 @@
+body {
+    background: #f7ed02;
+    font-family: 'Play', sans-serif;
+}
+
+header,
+section.page,
+footer {
+    font-size: 1em;
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1000px;
+
+}
+
+header .cont-logo img{
+    width: 50px;
+}
+
+header nav {
+    background: #000;
+    overflow: hidden;
+    border-radius: 20px 5px 20px 5px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    color: #0ef;
+    display: block;
+    padding: 5px 15px 15px 35px;
+    text-decoration: none;
+}
+
+.articles {
+    width: 70%;
+    float: left;
+    margin-right: 1.5%;
+}
+
+.articles article {
+    background: #f04;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+aside {
+    width: 28.5%;
+    float: left;
+    background: #000;
+    border-radius: 5px;
+}
+
+aside .sidebar {
+    color: #0ef;
+    padding: 30px;
+}
+
+footer {
+    background: #0ef;
+    clear: both;
+    border-radius: 20px 5px 20px 5px;
+}
+
+footer .cont-footer {
+    color: #000;
+    text-align: center;
+    padding: 5px
+}
+

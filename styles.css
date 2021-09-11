@@ -1,0 +1,50 @@
+/*este es el coso de los comentarios*/
+
+
+
+h1 {
+    color: rgb(13, 158, 158);
+}
+
+h2 {
+    color: rgb(211, 253, 21);
+}
+
+p {
+    font-size: 95%;
+    color: honeydew;
+}
+
+body{
+    background-color: rgb(8, 8, 12);
+}
+
+#parrafo1 {
+    color: honeydew;
+}
+
+#parrafo2 {
+    color: rgb(211, 253, 21);
+}
+
+.caja {
+    border: 1px solid rgb(13, 158, 158);
+    height: 5px;
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.caja#caja2 {
+    border: 1px solid rgb(255, 94, 1);
+    height: 70px;
+    width: 350px;
+}
+
+.contenedor{
+    margin: 10px;
+    padding: 50px;
+    border: 1px solid rgb(240, 18, 248);
+    width: 300;
+    height: 500px;
+}
