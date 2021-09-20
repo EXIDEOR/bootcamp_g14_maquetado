@@ -1,0 +1,96 @@
+$colorBg:#f7ed02;
+$colorBgB:#f04;
+$colorCont:#000a0f;
+$colorContB: #0ef;
+
+
+@mixin containers {
+    font-size: 20px;
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+@mixin articles {
+    padding: 50px 20px;
+    margin-bottom: 10px;
+    background-color:$colorBgB;
+    border-radius: 5px;  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7ed02;
+    font-family: 'Play', sans-serif;
+}
+
+header {
+    @include containers();
+    .cont-logo img{
+        width: 70px;
+    }
+    nav {
+        background: $colorCont;
+        border-radius: 20px 5px 20px 5px;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 20px;
+        max-width: 50px;
+        min-height: 40px;
+        max-height: 50px;
+    }
+    li a {
+        color:$colorContB;
+        padding: 5px 15px 15px 35px;
+        text-decoration: none;
+    }
+}
+
+section.page {
+    @include containers();
+    .main {
+        display:flex;
+    }
+    .articles {
+        article {
+        @include articles();
+        margin-bottom: 10px;
+        }
+    }
+    .sidebar {
+        color: $colorContB;
+        margin-left: 10px;
+        padding: 90px 20px;
+        @include articles();
+        background:$colorCont;
+        border-radius: 5px 55px 5px 55px;
+        text-align: center;
+        img {
+            max-width: 185px;
+            margin-top: 25px;
+        }
+    }
+}
+
+footer {
+    @include containers();
+    background:$colorContB;
+    clear: both;
+    border-radius: 5px 20px 5px 20px;
+    .cont-footer {
+        color: $colorCont;
+        text-align: center;
+        padding: 5px
+    }
+}
+
+
